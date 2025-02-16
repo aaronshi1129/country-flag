@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Flags Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="start-page">
+      <h1>Welcome to the National Flags Challenge!</h1>
+      <p>Select a geographical region to start:</p>
+      <div id="category-container">
+        <button class="category-button">World</button>
+        <button class="category-button">Asia</button>
+        <button class="category-button">Americas</button>
+        <button class="category-button">Europe</button>
+        <button class="category-button">Africa</button>
+        <button class="category-button">Oceania</button>
+      </div>
+    </div>
+
+    <div id="quiz-page">
+      <h1>National Flags Quiz</h1>
+      <div id="flag-container">
+        <img id="flag-image" src="" alt="Flag">
+      </div>
+      <div id="options-container">
+        <button class="option-button" id="option1"></button>
+        <button class="option-button" id="option2"></button>
+        <button class="option-button" id="option3"></button>
+        <button class="option-button" id="option4"></button>
+      </div>
+      <div id="message"></div>
+      <button id="next-button">Next Question</button>
+      <div id="score">Score: 0</div>
+      <div id="timer">Time: 0</div>
+    </div>
+
+    <div id="result-page">
+      <h1>Quiz Results</h1>
+      <div id="result-score">Final Score: </div>
+      <div id="result-time">Time Taken: </div>
+      <div id="result-achievement">Congratulations! </div>
+    </div>
+    <p style="text-align: center; margin-top: 20px; font-size: small;">Author: Aaron Shi. Released in 2025. Flag Images: flagpedia.net</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

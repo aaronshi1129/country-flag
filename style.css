@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("https://alittlemoreenglish.weebly.com/uploads/2/6/6/3/26638990/untitled-design-6_orig.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 800px;
+  max-width: 95%;
+}
+
+#flag-container {
+  margin-bottom: 20px;
+}
+
+#flag-image {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+
+#options-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#next-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+
+#next-button:hover {
+  background-color: #1e7e34;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+#start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#category-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.category-button {
+  padding: 15px 25px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-button:hover {
+  background-color: #545b62;
+}
+
+#quiz-page {
+  display: none;
+}
+
+#result-page {
+  display: none;
+}
