@@ -219,6 +219,7 @@ const timerDisplay = document.getElementById("timer");
 const resultScore = document.getElementById("result-score");
 const resultTime = document.getElementById("result-time");
 const resultAchievement = document.getElementById("result-achievement");
+const resultCategory = document.getElementById("result-category");
 
 let currentFlag;
 let score = 0;
