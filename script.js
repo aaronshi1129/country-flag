@@ -333,11 +333,11 @@ function endQuiz() {
   resultCategory.textContent = "Region Selected: " + selectedCategory;
 
   let achievement = "";
-  if (score >= 9) {
+  if (score = 10) {
     achievement = "🥇Gold Medal!🎊";
-  } else if (score >= 7) {
+  } else if (score = 9) {
     achievement = "🥈Silver Medal!🎊";
-  } else if (score >= 5) {
+  } else if (score >= 7) {
     achievement = "🥉Bronze Medal!🎊";
   } else {
     achievement = "👍Great work! Try harder next time!🎊";
